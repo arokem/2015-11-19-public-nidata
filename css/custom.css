@@ -1,0 +1,13 @@
+body {
+  background: #fdf6e3;
+  background-color: #fdf6e3; }
+
+.reveal {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #222; }
+  
+.reveal section img {
+    background: rgba(255, 255, 255, 0.12)}
+  

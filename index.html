@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title> Making your data public ("sharing") </title>
+
+		<meta name="description" content="Presentation at ILABS 2015/11/19.">
+		<meta name="author" content="Ariel Rokem">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/custom.css" id="theme">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2> Data "sharing" in neuroimaing: why and how</h2>
+	        <p><a href="http://arokem.org">Ariel Rokem</a>, <a href="http://escience.washington.edu">University of Washington eScience Institute</a> </p>
+	        <p class="fragment"><small> Follow along at <t> <a href="http://arokem.github.io/2015-11-19-public-nidata /">http://arokem.github.io/2015-11-19-public-nidata </t></small></a></p>
+	      </section>
+
+				<section>
+				        <img src="images/eScience_Logo_PMS.png" alt="The eScience Institute" align="middle" style="background:none; border:none; box-shadow:none;">
+				      	<div class="fragment">
+				        <img src="images/sponsors.png" alt="DSE sponsors" align="middle" style="background:none; border:none; box-shadow:none;">
+				      	</div>
+				</section>
+
+				<section>
+					<h2> <em>Data Science</em>? </h2>
+						<p class="fragment">
+							Programming and software engineering
+						</p>
+
+						<p class="fragment">
+							Data management
+						</p>
+
+						<p class="fragment">
+							Statistics and machine learning
+						</p>
+
+						<p class="fragment">
+							Data visualization and communication
+						</p>
+
+						<p class="fragment">
+							A focus on reproducibility and openess
+						</p>
+					</section>
+
+<!---
+
+				<section>
+				<img src="images/DSE.png" alt="DSE" align="middle" style="background:none; border:none; box-shadow:none;">
+
+				</section>
+--->
+			<section>
+			<h3>"Sharing" is caring</h3>
+			</section>
+
+			<section>
+				<h3><strike>"Sharing"</strike> is caring</h3>
+				<p class="fragment">
+					But what if you don't care? Or don't want to be altruistic?
+				</p>
+				<p class="fragment">
+					Let's call it "publishing" instead
+				</p>
+			</section>
+
+			<section>
+				 <h3>Reasons that data <strike>sharing</strike> publication is important</h3>
+				 <small>Based on <a href="http://journal.frontiersin.org/article/10.3389/fninf.2012.00009/abstract">Poline et al. (2012)</a></small>
+				 <p class="fragment">
+					 Accelerate progress in understanding the brain
+ 				 </p>
+				 <p class="fragment">
+					 Other fields have already demonstrated the benefits:
+					 Astronomy, Genomics are examples
+				</p>
+				<p class="fragment">
+					Improve the quality of publications, and of the data
+				</p>
+				<p class="fragment">
+					Reduce the cost of research, and increase ROI
+				</p>
+				<p class="fragment">
+					Reproducibility
+				</p>
+			 </section>
+			 <section>
+				 "An article about a computational result is advertising, not scholarship. The actual scholarship is the full software environment code and data, that produced the result"
+
+				 Buckheit and Donoho (1995)
+				 <br>
+				  <small>see <a href="http://biostatistics.oxfordjournals.org/content/11/3/385.long"> here</a></small>
+			 </section>
+
+			 section>
+			 	 <h3>Reasons that data <strike>sharing</strike> publication is important</h3>
+			 	 <small>Based on <a href="http://journal.frontiersin.org/article/10.3389/fninf.2012.00009/abstract">Poline et al. (2012)</a></small>
+			 	 <p>
+			 		 Accelerate progress in understanding the brain
+			 	 </p>
+			 	 <p >
+			 		 Other fields have already demonstrated the benefits:
+			 		 Astronomy, Genomics are examples
+			 	</p>
+			 	<p>
+			 		Improve the quality of publications, and of the data
+			 	</p>
+			 	<p >
+			 		Reduce the cost of research, and increase ROI
+			 	</p>
+			 	<p>
+			 		Reproducibility
+			 	</p>
+				<h3>For all these reasons - funding agencies/journals are going to increasingly require that you do it! </h3>
+				</section>
+
+
+			 <section>
+
+			 </section>
+
+			 <section>
+ 				<div style="position:absolute; left: 220px; top:-50px;">
+ 				<img src="images/globe-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
+ 				<div style="position:absolute; left: 120px; top:40px;">http://arokem.org
+ 				</div>
+ 				</div>
+ 				<div style="position:absolute; left: 220px; top:70px;">
+ 				<img src="images/email-11-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
+ 				<div style="position:absolute; left: 120px; top:40px;">arokem@gmail.com
+ 				</div>
+ 				</div>
+ 				<div style="position:absolute; left: 220px; top:190px;">
+ 				<img src="images/twitter-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
+ 				<div style="position:absolute; left: 120px; top:40px;">@arokem
+ 				</div>
+ 				</div>
+ 				<div style="position:absolute; left: 220px; top:310px;">
+ 				<img src="images/github-6-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
+ 				<div style="position:absolute; left: 120px; top:40px;">github.com/arokem
+ 				</div>
+ 				</div>
+ 				</section>
+		</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
